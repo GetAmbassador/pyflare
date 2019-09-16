@@ -103,7 +103,7 @@ class PyflareTest(unittest.TestCase):
 
     @mock_response_client
     def test_async(self):
-        response = self.pyflare.async('example.com', 0)
+        response = self.pyflare.async_loader('example.com', 0)
         self.assertEqual(response['result'], 'success')
 
     @mock_response_client
