@@ -19,7 +19,7 @@ setup(
         'Intended Audience :: Developers',
         'Development Status :: 5 - Production/Stable',
         'Operating System :: OS Independent',
-        'Programming Language :: Python',
+        'Programming Language :: Python :: 3',
         'Topic :: Internet :: WWW/HTTP'
     ]
 )
