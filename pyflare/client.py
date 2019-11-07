@@ -304,7 +304,7 @@ class PyflareClient(object):
             'v': int(enable)
         })
 
-    def async(self, zone, setting):
+    def async_loader(self, zone, setting):
         """
         Changes Rocket Loader setting
         :param zone: domain name

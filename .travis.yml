@@ -1,6 +1,6 @@
 language: python
 python:
-  - "2.7"
+  - "3.7.3"
 
 # install dependencies
 install: "pip install -r requirements/development.txt -r requirements/global.txt --use-mirrors"
